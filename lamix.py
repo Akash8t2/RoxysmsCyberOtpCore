@@ -19,8 +19,8 @@ from datetime import datetime, timezone
 import requests  
   
 # ================= CONFIG =================  
-BASE_URL = os.getenv("BASE_URL", "http://139.99.208.63/ints")
-DATA_URL = os.getenv("DATA_URL", "http://139.99.208.63/ints/agent/res/data_smscdr.php")
+BASE_URL = os.getenv("BASE_URL", "http://185.2.83.39/ints")
+DATA_URL = os.getenv("DATA_URL", "http://185.2.83.39/ints/agent/res/data_smscdr.php")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_IDS = os.getenv("CHAT_IDS", "").split(",")
